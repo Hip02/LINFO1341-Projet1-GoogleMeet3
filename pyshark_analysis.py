@@ -1,7 +1,5 @@
 import pyshark
 import datetime
-import ipaddress
-
 
 def get_interval(arrival_time, intervals, samples):
     for i, interval in enumerate(intervals):
